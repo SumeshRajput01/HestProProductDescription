@@ -1,0 +1,8 @@
+        <div class="container">
+            <div class="image-container">
+                <img src="" alt="Earbuds-J56">
+            </div>
+            <div class="text-container">
+                <p></p>
+            </div>
+        </div>

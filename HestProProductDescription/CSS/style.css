@@ -1,0 +1,76 @@
+@media screen and (min-width: 300px) and (max-width: 780px) {
+    .container {
+        flex-flow: column wrap;
+        padding: 10px 0px !important;
+    }
+
+    .container:nth-child(odd) {
+        flex-flow: column nowrap !important;
+    }
+
+    .text-container {
+        padding: 0 10px !important;
+    }
+
+    .main-container {
+        padding: 10px 20px !important;
+    }
+
+    .text-container {
+        padding: 10px 20px 10px 20px !important;
+    }
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.text-container {
+    flex: 1;
+    padding: 0 50px 0 50px;
+}
+
+.text-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* second container layout */
+.container:nth-child(odd) {
+    flex-flow: row-reverse nowrap;
+}
+
+/* Background color of product description */
+#custom-background{
+	background: black;
+	color: #f7dc5f;
+	font-weight: bolder;
+}
+
+/* Best Deal Description Font Style */
+.elementor-widget-container .woocommerce-product-details__short-description h6{
+color: #8c7848 !important;
+font-weight: 500 !important;
+font-style: italic !important;
+}
+
